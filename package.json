@@ -1,0 +1,17 @@
+{
+  "name": "regex-validator",
+  "version": "1.0.0",
+  "description": "A Node.js package for various regex validations",
+  "main": "index.js",
+  "keywords": [
+    "regex",
+    "validation",
+    "credit card",
+    "phone number",
+    "GST",
+    "email",
+    "ZIP code"
+  ],
+  "author": "Abhishek Sojitra",
+  "license": "ISC"
+}
