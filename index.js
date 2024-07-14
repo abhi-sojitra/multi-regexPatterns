@@ -26,10 +26,28 @@ function validateZipCode(zipCode) {
   return regexPatterns.zipCode.test(zipCode);
 }
 
+// Function to validate Aadhar card number
+function validateAadharCard(aadharNumber) {
+  return regexPatterns.aadharCard.test(aadharNumber);
+}
+
+// Function to validate PAN card number
+function validatePanCard(panNumber) {
+  return regexPatterns.panCard.test(panNumber);
+}
+
+// Function to validate Voter ID card number
+function validateVoterID(voterIDNumber) {
+  return regexPatterns.voterID.test(voterIDNumber);
+}
+
 module.exports = {
   validateCreditCard,
   validatePhoneNumber,
   validateIndiaGST,
   validateEmail,
   validateZipCode,
+  validateAadharCard,
+  validatePanCard,
+  validateVoterID,
 };

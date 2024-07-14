@@ -18,4 +18,13 @@ module.exports = {
 
   // ZIP Code Validation (USA)
   zipCode: /^[0-9]{5}(?:-[0-9]{4})?$/,
+
+  // Aadhar Card Validation
+  aadharCard: /^\d{12}$/,
+
+  // PAN Card Validation
+  panCard: /^[A-Z]{5}[0-9]{4}[A-Z]{1}$/,
+
+  // Voter ID Card Validation
+  voterID: /^[A-Z]{3}\d{7}$/,
 };
