@@ -20,7 +20,13 @@ const {
   validateWhitespace,
   validateAadharCard,
   validatePanCard,
-  validateVoterID
+  validateVoterID,
+  validateIpAddress,
+  validateURL,
+  validateDate,
+  validateTime,
+  validateHexColor,
+  validateUUID
 } = require('regex-validator');
 
 // Validate credit card
@@ -49,6 +55,25 @@ console.log(validatePanCard('ABCDE1234F')); // true or false
 
 // Validate Voter ID card number
 console.log(validateVoterID('ABC1234567')); // true or false
+
+// Validate IP address
+console.log(validateIpAddress('192.168.1.1')); // true or false
+
+// Validate URL
+console.log(validateURL('https://example.com')); // true or false
+
+// Validate Date (YYYY-MM-DD)
+console.log(validateDate('2023-07-20')); // true or false
+
+// Validate Time (HH:MM:SS)
+console.log(validateTime('14:30:00')); // true or false
+
+// Validate Hex Color Code
+console.log(validateHexColor('#ff5733')); // true or false
+
+// Validate UUID
+console.log(validateUUID('123e4567-e89b-12d3-a456-426614174000')); // true or false
+
 
 ```
 
